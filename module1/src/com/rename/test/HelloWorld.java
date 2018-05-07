@@ -15,6 +15,8 @@ public class HelloWorld {
         list.stream().map(x -> x.toUpperCase()).collect(Collectors.joining(","));
 
         Callable<Integer> a = () -> 2;
+
+        System.out.println("a");
     }
 
     public enum Color {
