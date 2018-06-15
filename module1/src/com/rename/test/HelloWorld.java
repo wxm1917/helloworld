@@ -10,6 +10,13 @@ import java.util.stream.Collectors;
 
 public class HelloWorld {
     public static void main(String[] args) throws ParseException {
+        Integer ad = null;
+
+        if (ad == 2) {
+            System.out.println("------------");
+        }
+
+
 ////ddd
         Byte b1 = null;
         Byte b2 = 1;
@@ -23,8 +30,13 @@ public class HelloWorld {
         Long a = null;
 // 1111111
         //3333333333333333333
+
+
+        ///000
 //        long b = a;
 //        System.out.println(b);
+
+        //////ddddd
         int c = 1;
         c = Math.max(c + 1, 0);
         System.out.println(c);
