@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 
 public class HelloWorld {
     public static void main(String[] args){
+        // master 1
         List<String> list = Arrays.asList("a", "b");
         list.stream().map(x -> x + x).forEach(System.out::println);
         list.stream().map(x -> x.toUpperCase()).collect(Collectors.joining(","));
