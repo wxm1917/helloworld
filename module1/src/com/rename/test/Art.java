@@ -1,9 +1,6 @@
-package com.rename.test2;
+package com.rename.test;
 
 public class Art {
-
-    public int size;
-
     public enum B {
         EE
     }
